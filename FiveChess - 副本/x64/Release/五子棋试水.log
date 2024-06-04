@@ -1,0 +1,110 @@
+﻿  AI.cpp
+D:\梦想成为开发大师\vs项目\五子棋试水\AI.cpp(216,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Chess.cpp
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(49,15): warning C4305: “=”: 从“chess_kind_t”到“bool”截断
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(64,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  D:\梦想成为开发大师\VS2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(64,2):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [14]”转换为“LPCTSTR”
+  		D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(64,15):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(64,2):
+  尝试匹配参数列表“(int, const char [14])”时
+  
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(65,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(65,16):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(65,2):
+  尝试匹配参数列表“(const char [19], int, int, int)”时
+  
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(66,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  D:\梦想成为开发大师\VS2022\VC\Auxiliary\VS\include\easyx.h(259,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+  	D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(66,2):
+  	“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [14]”转换为“LPCTSTR”
+  		D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(66,27):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\梦想成为开发大师\VS2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+  或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(66,2):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [14]”转换为“LPCTSTR”
+  		D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(66,27):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(66,2):
+  尝试匹配参数列表“(IMAGE *, const char [14], float, float, bool)”时
+  
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(67,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  D:\梦想成为开发大师\VS2022\VC\Auxiliary\VS\include\easyx.h(259,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+  	D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(67,2):
+  	“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [14]”转换为“LPCTSTR”
+  		D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(67,28):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\梦想成为开发大师\VS2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+  或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(67,2):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [14]”转换为“LPCTSTR”
+  		D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(67,28):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(67,2):
+  尝试匹配参数列表“(IMAGE *, const char [14], float, float, bool)”时
+  
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(79,10): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(80,10): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(81,18): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(82,18): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(83,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(89,13): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(100,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(102,13): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(114,20): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(115,13): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(126,20): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(127,20): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(128,13): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(144,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(145,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(174,4): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(174,18):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(174,4):
+  尝试匹配参数列表“(const char [18], int, int, int)”时
+  
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(175,4): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  D:\梦想成为开发大师\VS2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(175,4):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [13]”转换为“LPCTSTR”
+  		D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(175,17):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(175,4):
+  尝试匹配参数列表“(int, const char [13])”时
+  
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(178,4): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(178,18):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(178,4):
+  尝试匹配参数列表“(const char [18], int, int, int)”时
+  
+D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(179,4): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+  D:\梦想成为开发大师\VS2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+  可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+  	D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(179,4):
+  	“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [13]”转换为“LPCTSTR”
+  		D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(179,17):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\梦想成为开发大师\vs项目\五子棋试水\Chess.cpp(179,4):
+  尝试匹配参数列表“(int, const char [13])”时
+  
+  ChessGame.cpp
+  main.cpp
+D:\梦想成为开发大师\vs项目\五子棋试水\main.cpp(6,23): warning C4305: “参数”: 从“double”到“float”截断
+  Man.cpp
+  rsc.cpp

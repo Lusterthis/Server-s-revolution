@@ -1,0 +1,3 @@
+﻿  AI.cpp
+D:\梦想成为开发大师\vs项目\五子棋试水\AI.cpp(216,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  五子棋试水.vcxproj -> D:\梦想成为开发大师\vs项目\五子棋试水\x64\Debug\五子棋试水.exe
